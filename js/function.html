@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>function</title>
+    <link rel="stylesheet" href="js_css/main.css">
+</head>
+<body>
+
+    <div class="alert-box" id="alert">alert-box
+        <button onclick="closeAlert()"> Close </button>
+    </div>
+    <button onclick="openAlert()">button</button>
+
+    <script>
+        function openAlert() {
+            document.getElementById('alert').style.display = 'block';
+        }
+        
+        function closeAlert() {
+            document.getElementById('alert').style.display = 'none';
+        }
+    </script>
+
+</body>
+</html>
