@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>function_parameter</title>
+    <link rel="stylesheet" href="js_css/main.css">
+</head>
+<body>
+
+    <div class="alert-box" id="alert_id">
+        <p id="alert_pw"></p>
+        <button onclick="closeBtn()"> Close </button>
+    </div>
+
+    <button onclick="idBtn()">button1</button>
+    <button onclick="pwBtn()">button2</button>
+
+    <script>
+        function idBtn() {
+            document.getElementById('alert_id').style.display = 'block' ;
+            document.getElementById('alert_pw').innerHTML = '아이디를 입력해주세요.';
+        }
+        function pwBtn() {
+            document.getElementById('alert_id').style.display = 'block' ;
+            document.getElementById('alert_pw').innerHTML = '비밀번호를 입력해주세요.';
+        }
+
+        function closeBtn() {
+            document.getElementById('alert_id').style.display = 'none' ;
+        }
+    </script>
+
+</body>
+</html>
