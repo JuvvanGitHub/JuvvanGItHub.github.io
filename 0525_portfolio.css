@@ -1,0 +1,142 @@
+@font-face {
+    font-family: '기본';
+    src: url(../font/NanumSquareB.woff);
+}
+
+
+body {
+    margin: 50px;
+    font-family: '기본';
+    background-color: #f7f9fc;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+i {
+    color: #6fbaf8;
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+/*  */
+
+.card {
+    border: none;
+    margin-top: 15px;
+}
+
+.card h5 {
+    padding-top: 10px;
+}
+
+.card-p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.card-body{
+    margin: 5px;
+}
+
+.card-border {
+    border-bottom: 1px solid gray;
+}
+
+.con-bor {
+    border: none;
+    padding: 30px;
+}
+
+.sign-up {
+    text-align: center;
+}
+
+.sign-up i {
+    font-size:150px;
+}
+.btn-color {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    background-color:#6fbaf8 ;
+    margin: auto;
+}
+
+.btn-white {
+    color: white;
+}
+
+.liss {
+    --bs-list-group-border-color: none;
+    padding: 10px;
+}
+
+.mk-container{
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.mk-item {
+    margin: 20px;
+}
+
+
+.col-sm-border {
+    border-left: 1px solid rgb(187, 187, 187);
+}
+
+@media (max-width: 992px) {
+    .col-sm-border {
+      border-left: none;
+    }
+  }
+
+.insta {
+    width: 32%;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-grid img {
+    width: 33.33%;
+    height: auto;
+  }
+
+
+.icon-black {
+    background-color: black;
+    height: 75px;
+    width: 75px;
+}
+
+
+
+.back-gray{
+    background-color: rgb(192, 192, 192);
+    opacity: 0.7;
+}
+.back-gray h5{
+    color: black;
+    font-size: 30px;
+    padding: 15px;
+ }
+
+ .back-gray p{
+    color: black;
+    font-size: 25px;
+ }
